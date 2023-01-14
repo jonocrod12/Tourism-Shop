@@ -1,5 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.jumb-container{
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
 
+.jumb-title{
+ position: absolute;
+ width: 50%;
+ padding: 35px;
+ color:white;
 
+}
 .img-jumb{
     width:100%;
 }
@@ -7,33 +25,55 @@
 .btn-register{
     background-color: #025159;
     color: white;
-    border-radius: 8px;
+    border-radius: 12px;
     border: none;
     height: 35px;
     width: 160px;
 }
 
-.card-img-top{
-    height: 200px;
-    
-    
+.btn-register:hover{
+    transform: scale(1.03);
 }
-.card-1{
-    background-color: #025159;
+
+.container-catalogue-title{
+    color: #025159;
+    font-weight: bold;
+    margin-bottom: 80px;
     text-align: center;
-    border-radius: 8px;
 }
 
-.card-container{
-    margin: 160px;
-
+.prices-card{
+    background-color: #025159;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    
 }
+
+.prices-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+}
+
+.cards-container{
+ width: 80%;
+ margin: 100px auto;
+}
+
+.card-title{
+    padding: 20px;
+}
+
+
+
+
 
 footer{
     background-color: #025159;
-    font-family: Tahoma, sans-serif;
-    padding: 50px;
-    margin-top: 70px;
+    width:100%;
+    margin: 0;
+    padding: 0;
     
 }
 footer ul{
@@ -49,7 +89,10 @@ footer li{
 
 
 .footer-container{
-    padding: 30px;
+    padding: 40px;
     display: grid;
-    grid-template-columns: repeat(4,0.5fr);
+    grid-template-columns: repeat(3,0.3fr);
+    
+    
 }
+
