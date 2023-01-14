@@ -1,0 +1,55 @@
+
+
+.img-jumb{
+    width:100%;
+}
+
+.btn-register{
+    background-color: #025159;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    height: 35px;
+    width: 160px;
+}
+
+.card-img-top{
+    height: 200px;
+    
+    
+}
+.card-1{
+    background-color: #025159;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card-container{
+    margin: 160px;
+
+}
+
+footer{
+    background-color: #025159;
+    font-family: Tahoma, sans-serif;
+    padding: 50px;
+    margin-top: 70px;
+    
+}
+footer ul{
+    color: white;
+    text-decoration: none;
+}
+
+footer li{
+    color: white;
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+.footer-container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,0.5fr);
+}
