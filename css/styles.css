@@ -118,6 +118,51 @@ footer li{
     
     
 }
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 0.5;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contenido {
+	background-color: #fefefe;
+	margin: 6% auto;
+	padding: 35px;
+	border: 1px solid #888;
+	width: 60%;
+	border-radius: 16px;
+
+}
+
+/* Estilos para el botón de cerrar */
+#btn-cerrar {
+	float: right;
+	padding: 5px;
+	background-color: #ddd;
+	border: none;
+}
+
+#btn-cerrar:hover,
+#btn-cerrar:focus {
+	background-color: #bbb;
+	cursor: pointer;
+}
+
+.title{
+	text-align: center;
+}
+
+.contacts-container{
+	text-align: center;
+}
+
 @media (max-width: 600px){
     .footer-container{
         display: grid;
@@ -153,3 +198,43 @@ footer li{
     }
 
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-contenido {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .modal-body{
+    text-align: justify;
+    
+  }
+
+  .content{
+    padding: 20px;
+    
+  }
+
+  .content p{
+    font-size: small;
+  }
+
+  .buttom-cerrar{
+    background-color: #359AA6;
+  }
+  
